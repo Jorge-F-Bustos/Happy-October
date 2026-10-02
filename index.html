@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#120b26">
+  <meta name="description" content="Una sorpresa linda de Halloween">
+  <title>𝔽𝕖𝕝𝕚𝕫 𝕆𝕔𝕥𝕦𝕓𝕣𝕖 /|㇏^•𝕨•^ノ|\~♡</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Nunito:wght@600;700;800;900&family=Unbounded:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="night" id="night">
+    <div class="sky" aria-hidden="true"><span class="moon"></span><span class="star star-a"></span><span class="star star-b"></span><span class="star star-c"></span><span class="star star-d"></span><span class="mist mist-a"></span><span class="mist mist-b"></span><div class="halloween-details"><span class="bat bat-a"></span><span class="bat bat-b"></span><span class="mini-pumpkin mini-pumpkin-a"></span><span class="mini-pumpkin mini-pumpkin-b"></span></div><div class="particles" id="particles"></div></div>
+    <header class="intro"><p class="eyebrow">TE AMOOOOOOOOO ❤︎.*</p><h1>FELIZ OCTUBRE<span>♡</span></h1><p class="subtitle">Hay algo bonito esperando dentro...</p></header>
+
+    <section class="magic-stage" aria-label="Calabaza mágica de Halloween">
+      <div class="pumpkin-dark-layer" aria-hidden="true">
+        <svg class="pumpkin-dark" viewBox="0 0 360 310" role="presentation">
+          <path class="pumpkin-opening-fill" d="M76 62Q180 86 284 62Q270 80 180 96Q90 80 76 62Z" />
+        </svg>
+      </div>
+      <div class="bouquet" id="bouquet" aria-hidden="true"></div>
+      <div class="light-beam" aria-hidden="true"></div>
+      <button class="pumpkin-button" id="pumpkinButton" type="button" aria-expanded="false" aria-controls="bouquet" aria-label="Abrir la calabaza mágica">
+        <span class="pumpkin-shadow" aria-hidden="true"></span>
+        <svg class="pumpkin" viewBox="0 0 360 310" role="img" aria-label="Calabaza naranja tallada con cara sonriente">
+          <defs><filter id="softGlow"><feGaussianBlur stdDeviation="6"/></filter><clipPath id="pumpkinBodyOpening"><path d="M0 62H76Q180 86 284 62H360V310H0Z" /></clipPath></defs>
+          <ellipse class="inner-glow" cx="180" cy="150" rx="113" ry="106" />
+          <path class="pumpkin-ridge ridge-back" d="M54 157c-10-61 25-107 68-113 31-5 47 10 58 33 11-23 27-38 58-33 43 6 78 52 68 113-9 62-51 105-126 105S63 219 54 157Z" />
+          <path class="pumpkin-body" d="M48 158c0-54 25-98 70-108 31-7 50 11 62 39 12-28 31-46 62-39 45 10 70 54 70 108 0 70-38 119-132 119S48 228 48 158Z" />
+          <path class="pumpkin-ridge ridge-left" d="M127 57c-26 35-28 154 19 214" /><path class="pumpkin-ridge ridge-right" d="M233 57c26 35 28 154-19 214" /><path class="pumpkin-ridge ridge-center" d="M180 83c-18 54-18 122 0 187" />
+          <path class="pumpkin-opening-edge" d="M76 62Q180 86 284 62" />
+          <g class="carved-face"><path d="M93 129 137 116 124 161 101 158Z"/><path d="M267 129 223 116 236 161 259 158Z"/><path d="m171 163 9-9 9 9-9 16Z"/><path d="M91 190 112 202 135 194 153 207 180 199 207 207 225 194 248 202 269 190 262 221 241 238 217 231 196 244 180 236 164 244 143 231 119 238 98 221Z"/></g>
+          <g class="witch-hat" aria-hidden="true">
+            <path class="hat-cone" d="M180 2C172 29 151 58 112 88c25 10 72 14 136 0-31-28-54-57-68-86Z" />
+            <path class="hat-fold" d="M176 16c-3 28-17 52-39 72 18 4 35 5 50 4-17-24-15-50-11-76Z" />
+            <path class="hat-brim" d="M62 91c34-9 76-12 118-8 42-4 84-1 118 8-26 13-66 18-118 13-52 5-92 0-118-13Z" />
+            <path class="hat-band" d="M108 76c25 8 69 11 144 0l8 18c-72 13-125 9-160 0Z" />
+            <path class="hat-buckle" d="M221 87h22v16h-22Z M226 91v8h12v-8Z" />
+            <path class="hat-star" d="m141 66 3 7 8 1-6 5 2 8-7-4-7 4 2-8-6-5 8-1Z" />
+          </g>
+        </svg>
+      </button>
+      <p class="hint" id="hint">Toca la calabaza para despertar la magia</p>
+    </section>
+
+    <aside class="love-note"><span class="note-pin" aria-hidden="true"></span><span class="bat" aria-hidden="true">🦇</span><span class="luna" aria-hidden="true"></span><span class="calabaza" aria-hidden="true"></span><span class="estrella" aria-hidden="true">✦</span><p>Ni la noche más oscura de Halloween podría apagar todo lo que siento por ti.</p></aside>
+    <button class="sound-control" id="soundControl" type="button" aria-label="Activar o silenciar la música">♫ <span>música</span></button>
+    <p class="sr-only" id="announcement" aria-live="polite"></p>
+  </main>
+  <audio id="song" preload="auto" loop></audio>
+  <noscript><p class="noscript">Esta sorpresa necesita JavaScript para abrir la calabaza.</p></noscript>
+  <script src="script.js"></script>
+</body>
+</html>
