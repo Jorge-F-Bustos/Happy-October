@@ -1,10 +1,10 @@
-# Poema 6: noche de Halloween
+# Happy October
 
 Experiencia romántica interactiva con una calabaza cerrada que, al tocarla, abre su tapa y hace crecer un ramo de flores mágicas de Halloween desde su interior.
 
 ## Cómo abrirlo
 
-Abre `index.html` en un navegador moderno. También puedes servir la carpeta con `npx serve poema-6` para probarla desde un servidor local. El audio está en `cancion.mp3`, en la raíz del proyecto, y se carga con la ruta relativa `./cancion.mp3` para que también funcione al publicarlo con GitHub Pages.
+Abre `index.html` en un navegador moderno. También puedes servir la carpeta con `npx serve happy-october` para probarla desde un servidor local. El audio está en `cancion.mp3`, en la raíz del proyecto, y se carga con la ruta relativa `./cancion.mp3` para que también funcione al publicarlo con GitHub Pages.
 
 ## Interacción
 
